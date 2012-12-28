@@ -19,3 +19,4 @@
 //@codekit-prepend "bootstrap-typeahead.js"
 //@codekit-prepend "bootstrap-affix.js"
 //@codekit-prepend "prism.js"
+//@codekit-prepend "showdown.js"
