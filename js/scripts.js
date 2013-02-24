@@ -20,3 +20,4 @@
 //@codekit-prepend "bootstrap-affix.js"
 //@codekit-prepend "prism.js"
 //@codekit-prepend "showdown.js"
+//@codekit-prepend "table.js"
