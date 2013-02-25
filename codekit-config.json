@@ -11,15 +11,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/js\/tests\/index.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/bootstrap-popover.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -30,6 +21,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/bootstrap-popover-ck.js",
       "fileType" : 64
+    },
+    "\/js\/tests\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/less\/alerts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -57,6 +57,19 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/less\/type.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/type.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/type.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/js\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -79,28 +92,6 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-affix-ck.js",
       "fileType" : 64
     },
-    "\/less\/type.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/type.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/type.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/less\/tests\/navbar-static-top.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/tests\/navbar-static-top.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/html5shiv-printshiv.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -111,6 +102,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "~\/Desktop\/html5shiv-printshiv.min.js",
       "fileType" : 64
+    },
+    "\/less\/tests\/navbar-static-top.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/tests\/navbar-static-top.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/less\/tests\/navbar-fixed-top.html" : {
       "ignoreWasSetByUser" : 1,
@@ -169,15 +169,6 @@
       "outputAbbreviatedPath" : "\/js\/prism-ck.js",
       "fileType" : 64
     },
-    "\/less\/tests\/buttons.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/tests\/buttons.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/bootstrap-dropdown.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -188,6 +179,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/bootstrap-dropdown-ck.js",
       "fileType" : 64
+    },
+    "\/less\/tests\/buttons.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/tests\/buttons.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/less\/component-animations.less" : {
       "ignoreWasSetByUser" : 0,
@@ -261,14 +261,16 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-scrollspy-ck.js",
       "fileType" : 64
     },
-    "\/less\/tests\/forms-responsive.html" : {
+    "\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/tests\/forms-responsive.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy-ck.js",
+      "fileType" : 64
     },
     "\/js\/html5shiv.js" : {
       "ignoreWasSetByUser" : 0,
@@ -281,16 +283,14 @@
       "outputAbbreviatedPath" : "~\/Desktop\/html5shiv.min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
+    "\/less\/tests\/forms-responsive.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/less\/tests\/forms-responsive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
@@ -373,6 +373,17 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-modal-ck.js",
       "fileType" : 64
     },
+    "\/js\/tests\/phantom.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/phantom.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/phantom-ck.js",
+      "fileType" : 64
+    },
     "\/less\/navbar.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -385,17 +396,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/js\/tests\/phantom.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/phantom.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/phantom-ck.js",
-      "fileType" : 64
     },
     "\/less\/tests\/navbar.html" : {
       "ignoreWasSetByUser" : 1,
@@ -698,15 +698,15 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-carousel-ck.js",
       "fileType" : 64
     },
-    "\/less\/responsive-utilities.less" : {
+    "\/less\/pager.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/responsive-utilities.less",
+      "inputAbbreviatedPath" : "\/less\/pager.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/responsive-utilities.css",
+      "outputAbbreviatedPath" : "\/css\/pager.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -724,15 +724,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/less\/pager.less" : {
+    "\/less\/responsive-utilities.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/pager.less",
+      "inputAbbreviatedPath" : "\/less\/responsive-utilities.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/pager.css",
+      "outputAbbreviatedPath" : "\/css\/responsive-utilities.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -761,19 +761,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/less\/wells.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/wells.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/wells.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/js\/tests\/unit\/bootstrap-typeahead.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -785,15 +772,6 @@
       "outputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-typeahead-ck.js",
       "fileType" : 64
     },
-    "\/less\/tests\/css-tests.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/tests\/css-tests.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/less\/close.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -803,6 +781,28 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/close.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/tests\/css-tests.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/tests\/css-tests.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/less\/wells.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/wells.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/wells.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
