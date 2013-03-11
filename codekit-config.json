@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8248",
+  "creatorBuild" : "8283",
   "files" : {
     "\/js\/tests\/vendor\/qunit.css" : {
       "ignoreWasSetByUser" : 1,
@@ -10,6 +10,15 @@
       "inputAbbreviatedPath" : "\/js\/tests\/vendor\/qunit.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/js\/tests\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/bootstrap-popover.js" : {
       "ignoreWasSetByUser" : 0,
@@ -21,15 +30,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/bootstrap-popover-ck.js",
       "fileType" : 64
-    },
-    "\/js\/tests\/index.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/less\/alerts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -92,6 +92,15 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-affix-ck.js",
       "fileType" : 64
     },
+    "\/less\/tests\/navbar-static-top.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/tests\/navbar-static-top.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/html5shiv-printshiv.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -102,15 +111,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "~\/Desktop\/html5shiv-printshiv.min.js",
       "fileType" : 64
-    },
-    "\/less\/tests\/navbar-static-top.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/tests\/navbar-static-top.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/less\/tests\/navbar-fixed-top.html" : {
       "ignoreWasSetByUser" : 1,
@@ -261,16 +261,14 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-scrollspy-ck.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
+    "\/less\/tests\/forms-responsive.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/less\/tests\/forms-responsive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/html5shiv.js" : {
       "ignoreWasSetByUser" : 0,
@@ -283,14 +281,16 @@
       "outputAbbreviatedPath" : "~\/Desktop\/html5shiv.min.js",
       "fileType" : 64
     },
-    "\/less\/tests\/forms-responsive.html" : {
+    "\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/tests\/forms-responsive.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy-ck.js",
+      "fileType" : 64
     },
     "\/js\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
@@ -373,17 +373,6 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap-modal-ck.js",
       "fileType" : 64
     },
-    "\/js\/tests\/phantom.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/phantom.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/phantom-ck.js",
-      "fileType" : 64
-    },
     "\/less\/navbar.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -396,6 +385,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/js\/tests\/phantom.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/phantom.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/phantom-ck.js",
+      "fileType" : 64
     },
     "\/less\/tests\/navbar.html" : {
       "ignoreWasSetByUser" : 1,
@@ -761,6 +761,19 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/less\/wells.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/wells.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/wells.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/js\/tests\/unit\/bootstrap-typeahead.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -772,19 +785,6 @@
       "outputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-typeahead-ck.js",
       "fileType" : 64
     },
-    "\/less\/close.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/close.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/close.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/less\/tests\/css-tests.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -794,15 +794,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/less\/wells.less" : {
+    "\/less\/close.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/wells.less",
+      "inputAbbreviatedPath" : "\/less\/close.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/wells.css",
+      "outputAbbreviatedPath" : "\/css\/close.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
